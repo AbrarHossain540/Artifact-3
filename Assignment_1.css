@@ -1,0 +1,174 @@
+#bar {
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: grey;
+}
+
+body {
+    background-color: rgb(202, 211, 194);
+}
+
+#main-nav {
+    background-color: pink;
+    text-align: center;
+}
+
+#main-nav li {
+    display: inline;
+    position: relative;
+}
+
+#main-nav li:hover {
+    background-color: rgb(130, 84, 199);
+    color: white;
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: rgb(224, 208, 211);
+    float: left;
+    padding: 0;
+}
+
+#main-nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-container::after,
+.game-container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.main-container {
+    background-color: rgb(147, 201, 147);
+    width: 100%;
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+}
+
+.content-box_1 {
+    background-color: blanchedalmond;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+#contact {
+    text-align: center;
+    padding: 10px;
+    background-color: aqua;
+    width: 25%;
+    float: right;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.corner-image {
+    float: right;
+    margin-right: 20px;
+    cursor: pointer;
+    max-width: 50px;
+    max-height: 55px;
+}
+
+.reach-out-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.reach-out-button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    width: 70%;
+    float: left;
+}
+
+
+footer{
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: grey;
+    bottom: 0;
+    position: absolute;
+}
+
+.game-container h3 {
+    font-size: 24px;
+}
+
+#game-form {
+    margin-top: 20px;
+    display: flex;
+    float: left;
+}
+
+#userChoice {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.game-box {
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.box {
+    border: 2px solid #333;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+#userBox {
+    background-color: #67b6eb;
+}
+
+#computerBox {
+    background-color: #df7266;
+}
+
+span {
+    font-weight: bold;
+    font-size: 28px;
+    color: #fff;
+}

@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>Assignment 1</title>
+        <link rel="stylesheet" href="Assignment_1.css">
+        <script src="Assignment_1.js" defer></script>
+    </head>
+
+    <body>
+        <header id = "bar">
+            <h1 class= "title">INST377 - Class Page</h1>
+
+        </header>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href='Assignment_1-The_Web_Page.html'>Home</a></li>
+                <li><a href='game.html'>Games</a></li>
+                <li><a href='Assign1_ReachOut.html'>Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+
+        <div class= "game-container">
+
+            <h3>Rock, Paper, Scissors, Spock?</h3>
+
+            <form id = 'game-form'>
+                <label for="userChoice">Choose:</label>
+                <select id="userChoice" name="userChoice" required>
+                    <option value="rock">Rock</option>
+                    <option value="paper">Paper</option>
+                    <option value="scissors">Scissors</option>
+                </select>
+                <br>
+                <button type="submit">Submit</button>
+            
+            </form>
+
+            <br>
+            <br>
+            <br>
+
+            <div class= "game-box">
+                <div class="box" id="userBox">
+                    <strong>You Chose:</strong><br>
+                    <span id="userSelection">---</span>
+                </div>
+                <div class="box" id="computerBox">
+                    <strong>Computer Chose:</strong><br>
+                    <span id="computerSelection">---</span>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <h4>Thanks for visiting. Do your hw!</h4>
+        </footer>   
+
